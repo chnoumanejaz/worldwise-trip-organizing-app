@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "cityName": "Lahore",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2018-10-17T19:24:02.000Z",
+      "notes": "Student\n",
+      "position": {
+        "lat": "31.541089879585837",
+        "lng": "74.31152343750001"
+      },
+      "id": 1
+    },
+    {
+      "cityName": "Multan",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2023-08-31T05:48:17.608Z",
+      "notes": "",
+      "position": {
+        "lat": "30.192618218499273",
+        "lng": "71.46743774414064"
+      },
+      "id": 3
+    }
+  ]
+}
