@@ -11,6 +11,11 @@
   justify-content: center;
   align-items: center;
   gap: .5rem;
+  transition: .3s;
+}
+
+.btn:hover {
+  filter: hue-rotate(15deg);
 }
 
 .primary {
@@ -23,6 +28,10 @@
   font-weight: 600;
   background: none;
   border: 1px solid currentColor;
+}
+
+.back:hover {
+  background-color: var(--color-light--opac);
 }
 
 .position {

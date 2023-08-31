@@ -1,3 +1,9 @@
 .logo {
   height: 5.2rem;
+  transition: .3s;
+}
+
+.logo:hover{
+  transform: skew(-10deg);
+  box-shadow: none !important;
 }

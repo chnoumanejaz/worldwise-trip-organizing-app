@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { toast } from 'react-hot-toast';
 
 export function useGeolocation(defaultPosition = null) {
   const [isLoading, setIsLoading] = useState(false);
@@ -7,7 +8,7 @@ export function useGeolocation(defaultPosition = null) {
 
   function getPosition() {
     if (!navigator.geolocation)
-      return setError('Your browser does not support geolocation');
+      return toast.error('Your browser does not support geolocation');
 
     setIsLoading(true);
     navigator.geolocation.getCurrentPosition(
@@ -20,6 +21,7 @@ export function useGeolocation(defaultPosition = null) {
       },
       error => {
         setError(error.message);
+        toast.error(error.message);
         setIsLoading(false);
       }
     );

@@ -7,10 +7,12 @@
   --color-brand--1: #ffb545;
   --color-brand--2: #00c46a;
 
+  --hover-color-light: rgba(0, 196, 105, 0.13);
   --color-dark--0: #242a2e;
   --color-dark--1: #2d3439;
   --color-dark--2: #42484d;
   --color-light--1: #aaa;
+  --color-light--opac: rgba(255, 255, 255, 0.11);
   --color-light--2: #ececec;
   --color-light--3: #d6dee0;
 }

@@ -23,6 +23,30 @@
         "lng": "71.46743774414064"
       },
       "id": 3
+    },
+    {
+      "cityName": "Shaul’der",
+      "country": "Kazakhstan",
+      "emoji": "🇰🇿",
+      "date": "2023-08-31T06:26:07.609Z",
+      "notes": "",
+      "position": {
+        "lat": "42.476148570254516",
+        "lng": "67.80761718750001"
+      },
+      "id": 4
+    },
+    {
+      "cityName": "Muzaffargarh",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2023-08-31T07:04:45.079Z",
+      "notes": "",
+      "position": {
+        "lat": "30.18787014479982",
+        "lng": "71.08428955078126"
+      },
+      "id": 5
     }
   ]
 }

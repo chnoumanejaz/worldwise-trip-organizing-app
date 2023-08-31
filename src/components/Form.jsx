@@ -42,6 +42,8 @@ function Form() {
           const res = await fetch(
             `https://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${lat}&longitude=${lng}`
           );
+          if (!res.ok)
+            throw new Error('Failed! Check your internet Connection.');
           const data = await res.json();
           if (!data.countryName)
             throw new Error(
@@ -52,7 +54,7 @@ function Form() {
           setEmoji(convertToEmoji(data.countryCode));
         } catch (error) {
           toast(error.message, {
-            icon: '😣',
+            icon: '⚠',
           });
           setGeoCodingError(error.message);
         } finally {

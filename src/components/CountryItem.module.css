@@ -11,6 +11,12 @@
   border-radius: 7px;
   padding: 1rem 2rem;
   border-left: 5px solid var(--color-brand--1);
+  transition: .3s;
+}
+
+.countryItem:hover{
+  background-color: var(--hover-color-light);
+  border-left: 5px solid var(--color-brand--2);
 }
 
 .countryItem span:first-child {

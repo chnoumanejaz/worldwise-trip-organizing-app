@@ -1,4 +1,5 @@
 import { createContext, useContext, useReducer } from 'react';
+import { toast } from 'react-hot-toast';
 const AuthContext = createContext();
 
 const initialState = {
@@ -38,6 +39,7 @@ function AuthProvider({ children }) {
 
   function logout() {
     dispatch({ type: 'logout' });
+    toast.success('Logged Out! 🙂')
   }
 
   return (

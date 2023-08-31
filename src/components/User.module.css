@@ -23,7 +23,7 @@
 .user button {
   background-color: var(--color-dark--2);
   border-radius: 7px;
-  border: none;
+  border: 2px solid transparent;
   padding: 0.6rem 1.2rem;
   color: inherit;
   font-family: inherit;
@@ -31,4 +31,9 @@
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
+  transition: .3s;
+}
+
+.user  button:hover{
+  border: 2px solid var(--color-light--1);
 }
